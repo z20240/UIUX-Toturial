@@ -1,0 +1,53 @@
+.card-border {
+    width: 300px;
+    text-align: center;
+    color: #fff;
+    font-weight: 200;
+    line-height: 2;
+    box-shadow: 5px 5px 10px rgba($color: #000000, $alpha: .5);
+    font-family: 'Courier New', Courier, monospace;
+
+    .color1 {
+        margin: 0;
+        background-color: #c07ab8;
+    }
+    .color2 {
+        margin: 0;
+        background-color: #a6a6d2;
+    }
+    .color3 {
+        margin: 0;
+        background-color: #81c0c0;
+    }
+    .color4 {
+        margin: 0;
+        background-color: #b9b973;
+    }
+    .color5 {
+        margin: 0;
+        background-color: #c48888;
+    }
+    .color6 {
+        margin: 0;
+        background-color: #ffad86;
+        height: 200px;
+    }
+}
+
+.outter {
+    height: 300px;
+    border: 1px solid #000;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #acff86;
+}
+.center-box-1 {
+    display: flex;
+
+    .box {
+        margin: auto 0;
+    }
+}

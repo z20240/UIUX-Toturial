@@ -1,0 +1,189 @@
+/** golbal */
+* {
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: arial, sans-serif;
+}
+
+/** ---- Local ---- */
+.main-background {
+  background: -webkit-linear-gradient(40deg, #f35fc2 0, #8c23d3 100%);
+  background: -o-linear-gradient(40deg, #f35fc2 0, #8c23d3 100%);
+  background: linear-gradient(50deg, #f35fc2 0, #8c23d3 100%);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.container {
+  width: 1170px;
+  height: 100%;
+  margin: 0 auto;
+  border: 1px solid #999;
+  padding: 0 15px;
+}
+
+/** ---- custom ---- */
+.wrapper {
+  overflow: hidden;
+}
+
+.element {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 1.25rem;
+}
+
+.give-padding {
+  padding-top: 150px;
+  padding-bottom: 180px;
+}
+
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -15px;
+}
+
+.row .col {
+  padding: 0 15px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.row .col-1-3 {
+  padding: 0 15px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 33.3%;
+      -ms-flex: 0 0 33.3%;
+          flex: 0 0 33.3%;
+}
+
+.row .col-5-6 {
+  padding: 0 15px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 83.3%;
+      -ms-flex: 0 0 83.3%;
+          flex: 0 0 83.3%;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 50;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.navbar .element {
+  height: 5rem;
+}
+
+.jumbotron {
+  border: 1px solid #000;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.jumbotron .element {
+  height: 500px;
+}
+
+.whatsOn {
+  background-color: #ffffff;
+}
+
+.whatsOn .album {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+.whatsOn .album .album-art {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 50%;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+
+.whatsOn .album .album-art .element {
+  height: 300px;
+}
+
+.albums .element {
+  height: 400px;
+}
+
+.albums .phone-group {
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-transform: rotate(30deg) translate(185px, -510px);
+      -ms-transform: rotate(30deg) translate(185px, -510px);
+          transform: rotate(30deg) translate(185px, -510px);
+}
+
+.albums .phone-group .phone {
+  width: 358px;
+  height: 730px;
+  border: 5px solid #7c25f8;
+  background-color: #fff;
+  border-radius: 40px;
+  margin-bottom: 30px;
+}
+
+.albums .phone-group .phone.phone-1, .albums .phone-group .phone.phone-4 {
+  margin-top: 200px;
+}
+
+.devices {
+  background-color: #222326;
+}
+
+.devices .element {
+  height: 300px;
+}
+
+.subscribtions {
+  padding-bottom: 0;
+}
+
+.subscribtions .element {
+  height: 800px;
+}
+
+.footer {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  background-color: #000000;
+}
+
+.footer .element {
+  height: 300px;
+}
+
+.footer .row.small {
+  margin-top: 100px;
+}
+
+.footer .row.small .element {
+  height: 40px;
+}
+/*# sourceMappingURL=style.css.map */
